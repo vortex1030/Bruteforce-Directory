@@ -6,6 +6,8 @@ url = input('Url: ')
 if not url:
     print('URL not found')
 
+url = url + '/'
+
 while True:
     try:
         wordlist = input('File name or path: ')
